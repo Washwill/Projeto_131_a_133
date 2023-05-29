@@ -31,7 +31,7 @@ function setup(){
 function draw(){
     image(img2, 0, 0, 640, 420);
 
-    if(status !=""){
+    if(status2 !=""){
         for(i = 0; i < objects.length; i++){
             document.getElementById("statusq").innerHTML = "Status: Objeto Detectado";
             fill("red");
